@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <title>Random Password Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="light-mode">
+        <div class="theme-toggle-container">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon" id="themeIcon"></i>
+            </button>
+        </div>
+
+        <div class="container">
+            <h1>
+                <i class="fas fa-key"></i>
+                Password Generator
+            </h1>
+
+            <div class="header">
+                <input disabled type="text" id="pwd" placeholder="Your password will appear here...">
+                <button class="copy-btn" id="copy" aria-label="Copy password">
+                    <i class="fas fa-copy"></i>
+                </button>
+            </div>
+
+            <div class="copy-feedback" id="pwdcopy">
+                <i class="fas fa-check-circle"></i>
+                Password copied to clipboard!
+            </div>
+
+            <div class="body">
+                <div class="form-control">
+                    <label for="plength">
+                        <i class="fas fa-ruler-horizontal"></i>
+                        Password Length
+                    </label>
+                    <div class="input-wrapper">
+                        <input type="number" id="plength" value="16" min="4" max="50">
+                        <span class="length-display" id="lengthDisplay">16</span>
+                    </div>
+                </div>
+
+                <div class="info-text">
+                    <i class="fas fa-info-circle"></i>
+                    For strong passwords, enable all options and use 12-25 characters
+                </div>
+
+                <div class="options-grid">
+                    <div class="form-control option-item">
+                        <label for="puppercase" id="uppertxt">
+                            <i class="fas fa-font"></i>
+                            <span>Uppercase</span>
+                        </label>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="puppercase" checked>
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="form-control option-item">
+                        <label for="plowercase" id="lowertxt">
+                            <i class="fas fa-text-height"></i>
+                            <span>Lowercase</span>
+                        </label>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="plowercase" checked>
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="form-control option-item">
+                        <label for="pnumber" id="numtxt">
+                            <i class="fas fa-hashtag"></i>
+                            <span>Numbers</span>
+                        </label>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="pnumber" checked>
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="form-control option-item">
+                        <label for="psymbol" id="spltxt">
+                            <i class="fas fa-exclamation"></i>
+                            <span>Special Characters</span>
+                        </label>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="psymbol" checked>
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <button class="generate-btn" id="submit">
+                    <i class="fas fa-magic"></i>
+                    <span>Generate Password</span>
+                </button>
+
+                <div class="strength-indicator" id="strengthIndicator">
+                    <div class="strength-bar"></div>
+                    <span class="strength-text">Password strength will appear here</span>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
