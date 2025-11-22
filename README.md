@@ -8,20 +8,20 @@ A modern, secure, and customizable password generator with a beautiful dark/ligh
 
 ## Features
 
-- **🎨 Modern UI Design** - Beautiful emerald and black color scheme with smooth transitions
-- **🌓 Dark/Light Mode** - Toggle between dark and light themes for comfortable viewing
-- **🔒 Secure Password Generation** - Generates cryptographically strong random passwords
-- **⚙️ Customizable Constraints** - Control password length and character types:
+- **Modern UI Design** - Beautiful emerald and black color scheme with smooth transitions
+- **Dark/Light Mode** - Toggle between dark and light themes for comfortable viewing
+- **Secure Password Generation** - Generates cryptographically strong random passwords
+- **Customizable Constraints** - Control password length and character types:
   - Uppercase letters (A-Z)
   - Lowercase letters (a-z)
   - Numbers (0-9)
   - Special characters (!@#$%^&*=-_)
 - **📋 One-Click Copy** - Instantly copy generated passwords to clipboard
-- **✅ Smart Generation** - Ensures at least one character from each selected category
-- **📱 Responsive Design** - Works seamlessly on desktop and mobile devices
-- **🍎 Apple-Inspired Design** - Round buttons and smooth animations
+- **Smart Generation** - Ensures at least one character from each selected category
+- **Responsive Design** - Works seamlessly on desktop and mobile devices
+- **Apple-Inspired Design** - Round buttons and smooth animations
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -99,7 +99,7 @@ This project is open source and available under the MIT License.
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/Random_Password_Generator/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/amoako-franque/Random_Password_Generator.git/issues).
 
 ## Author
 
