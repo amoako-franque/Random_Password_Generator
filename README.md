@@ -1,4 +1,4 @@
-# 🔐 Random Password Generator
+# Random Password Generator
 
 A modern, secure, and customizable password generator with a beautiful dark/light mode interface. Generate strong passwords with customizable constraints including uppercase, lowercase, numbers, and special characters.
 
@@ -6,7 +6,7 @@ A modern, secure, and customizable password generator with a beautiful dark/ligh
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## ✨ Features
+## Features
 
 - **🎨 Modern UI Design** - Beautiful emerald and black color scheme with smooth transitions
 - **🌓 Dark/Light Mode** - Toggle between dark and light themes for comfortable viewing
@@ -116,4 +116,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ---
 
-⭐ If you found this project helpful, please consider giving it a star!
+ If you found this project helpful, please consider giving it a star!
